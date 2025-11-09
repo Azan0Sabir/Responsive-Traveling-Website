@@ -1,0 +1,89 @@
+@media (max-width:768px){
+.top-bar {
+    display: block;
+  }
+nav ul {
+  display: none;
+}
+#nav-btn-1 {
+  display: none;
+}
+nav > div {
+  gap: 0px;
+}
+#nav-btn-2 {
+  display: block;
+  height: 40px;
+  width: 20vw;
+  margin-right: 5%;
+  background-color: transparent;
+  border:0;
+  font-size: 1.5em;
+}
+.hero-data > div {
+  height: 4px;
+  width: 37%;
+}
+.hero-btn {
+  font-size: 0.9em;
+}
+.tour-cards-wrapper {
+  flex-direction: column;
+}
+.tour-cards-wrapper div p {
+  text-align:center;
+  font-size:1.05rem
+}
+.tour-cards-wrapper div h3 {
+  margin-block:11px;
+  font-size:1.2rem
+}
+.tour-cards-wrapper a {
+  margin-bottom:50px;
+  padding: 3.3vmin 3.2vmin;
+  font-size:1rem
+}
+.about-text p {
+  width: 98vw;
+}
+.about-text {
+  width: 100vw;
+}
+#about {
+  display: grid;
+}
+.about-pics {
+  grid-template-columns: 1fr;
+  justify-content: center;
+  max-width: 100%;
+  gap: 0;
+}
+.about-pics img {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+}
+@media (max-height: 1080px) and (min-width:1200px){
+  nav ul {
+    font-size: 3.3vh;
+  }
+  .hero-btn {
+    width: 22%;
+    height: 12%;
+  }
+}
+@media (max-width:436px) {
+  .hero-btn {
+    width: 36vmin;
+    height: 16vmin;
+  }
+}
+.title span {
+  display: inline;
+}
+@media (min-width: 768px) {
+  .title span {
+    display: block;
+  }
+}
